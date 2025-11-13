@@ -13,4 +13,9 @@ public class Subtracao implements Operacoes {
     public String getNome() {
         return "Subitração";
     }
+
+    @Override
+    public String getSimbolosMatematico() {
+        return "-";
+    }
 }

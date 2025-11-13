@@ -13,4 +13,9 @@ public class Soma implements Operacoes {
         return "Soma";
     }
 
+    @Override
+    public String getSimbolosMatematico() {
+        return "+";
+    }
+
 }

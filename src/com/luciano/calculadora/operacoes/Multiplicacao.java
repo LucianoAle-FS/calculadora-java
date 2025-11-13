@@ -14,4 +14,9 @@ public class Multiplicacao implements Operacoes {
     public String getNome() {
         return "Multiplicação";
     }
+
+    @Override
+    public String getSimbolosMatematico() {
+        return "*";
+    }
 }

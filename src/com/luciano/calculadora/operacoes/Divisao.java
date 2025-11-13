@@ -12,4 +12,9 @@ public class Divisao implements Operacoes {
     public String getNome() {
         return "Divisão";
     }
+
+    @Override
+    public String getSimbolosMatematico() {
+        return "/";
+    }
 }
